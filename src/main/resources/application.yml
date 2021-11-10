@@ -1,0 +1,15 @@
+spring:
+  h2.console:
+    enabled: true
+    path: "/h2"
+  profiles.active: dev
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    disable-swagger-default-url: true
+    config-url: /v3/api-docs/
+
+app-info:
+  url: http://localhost:8080

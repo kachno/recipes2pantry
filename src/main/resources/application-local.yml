@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: "jdbc:h2:file:./src/main/resources/db/h2/recipes2pantry-db"
+    username: "sa"
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate #first "create" then "validate"
