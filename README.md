@@ -1,4 +1,4 @@
-# Recipe2Pantries
+# Recipes2Pantry
 
 Application that helps you manage your recipes and products.
 
